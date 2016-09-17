@@ -1,0 +1,457 @@
+body {
+  font-family: "PFCentroSlabProMedium", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+
+
+  -webkit-font-smoothing: antialised; }
+input[type="text"]:focus { outline: none; }
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+  border-color:none; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: none;
+  border-color: none; }
+li{
+  list-style: none;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden {
+  display: none; }
+h1{
+  font-family: "Comfortaa";
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  margin: 130px 85px;
+}
+h2{
+  font-family: 'BebasRegular';
+  font-size: 38px;
+  text-align: center;
+  font-weight: 600;
+  margin:  0 0 50px 0;
+  color: #383838;
+
+
+}
+h3{
+  font-family: 'BebasRegular';
+  font-size: 26px;
+  color: 383838;
+  font-weight: 600;
+ 
+
+}
+.main-head:before{
+ content: "";
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3574b3+0,b4c98d+100 */
+background: #3574b3; /* Old browsers */
+background: -moz-linear-gradient(top,  #3574b3 0%, #b4c98d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3574b3 0%,#b4c98d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3574b3 0%,#b4c98d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3574b3', endColorstr='#b4c98d',GradientType=0 ); /* IE6-9 */
+opacity: 0.4;
+
+}
+.main-head{
+    min-height: 740px;
+    background-size: cover;
+    background-position: center bottom;
+    
+    
+   
+
+}
+.top-nav:before{
+ content: "";
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: #fff;
+ height: 85px;
+ opacity: .7;
+}
+.logo img{
+  width: 150px;
+
+}
+.main-mnu ul{
+  vertical-align: middle;
+}
+.main-mnu li {
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: middle;
+ 
+}
+.main-mnu a{
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 0 6px;
+
+}
+.wrap-phone{
+  float: right;
+  margin: 10px 0;
+  vertical-align: middle;
+
+}
+.phone{
+  font-family: "RobotoBold";
+  color: #00171f;
+  font-size: 14px;
+  display: block;
+  line-height: 13px;
+  margin-bottom: 15px;
+  
+}
+.btn-call{
+  padding: 9px 7px;
+  text-decoration: none;
+  background: #4271b3;
+  color: #fff;
+  border-bottom: 2px solid #2a5490;
+  text-align: center;
+  border-radius: 2px;
+}
+.arrow-wrap{
+  
+  position: relative;
+  z-index: 2;
+  top: 10px;
+  text-align: center;
+
+}
+.arrow-button{
+    display: inline-block; 
+    width: 43px;
+    height: 43px;
+    background: url(../img/arrow-btn.png);
+    cursor: pointer;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.arrow-button:hover{
+   opacity: 1;
+}
+.st-about{
+  background-color: #fff;
+  position: relative;
+  padding: 85px 0;
+}
+.wrap-img-about{
+  width: 100%;
+  height: 355px;
+  
+  
+}
+.wrap-img-about img{
+  float: right;
+}
+.portfolio{
+  padding: 85px 0;
+  position: relative;
+  background: #fff url(../1.png);
+  margin: 0;
+}
+
+
+.gall a:before{
+content: "";
+position: absolute;
+background: rgba(139,139,140,.4);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+
+}
+
+.test-popup-link{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gall a{
+   display: block;
+  min-height: 200px;
+  
+  margin: 0;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+ 
+
+ }
+.img-wrap{
+position: relative;
+text-align: center;
+width: 100%;
+margin-bottom: 30px;
+
+}
+.img-wrap h3{
+position: absolute;
+z-index: 50;
+color: #fff;
+font-weight: 400;
+margin:  15px;
+text-align: center;
+border-bottom: 2px solid #fff;
+}
+.img-wrap:hover h3{
+  border-bottom: transparent;
+}
+.img-wrap:after{
+  position: absolute;
+  width: 5%;
+  height: 2px;
+  background: #fff;
+  margin-right: 15px;
+  top: 52px;
+  left: 15px;
+  z-index: 55;
+  display:block;
+  content:'';
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+
+}
+.img-wrap:hover:after{
+  width: 92%;
+}
+
+   
+
+
+.owl-controls{
+  
+  text-align: center;
+  
+}
+.owl-dot{
+   width: 15px;
+    height: 15px;
+    margin: 0 3px;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    display: inline-block;
+    -webkit-border-radius: 10em;
+    border-radius: 10em;
+}
+.owl-dot.active{
+   background-color: #4271b3;
+}
+.owl-nav{
+  position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.owl-prev{
+  z-index: 99;
+  height: 20px;
+  width: 16px;
+  background: url(../img/slider_arrows.png);
+  position: absolute;
+  left: 40%;
+  bottom: 3px;
+  opacity: .8;
+  -webkit-transition: all .25s ease;
+   transition: all .25s ease;
+}
+.owl-next{
+  z-index: 99;
+  height: 20px;
+  width: 16px;
+  background: url(../img/slider_arrows.png);
+  position: absolute;
+  background-position: 16px 0px;
+  right: 40%;
+  bottom: 3px;
+  opacity: .8;
+  -webkit-transition: all .25s ease;
+   transition: all .25s ease;
+}
+.gallery-wrap {
+  
+  cursor: pointer;
+  font-size: 30px;
+  z-index: 30;
+  width: 20%;/*-50%-* должно/-*/
+  height: 20%;/*-50%-* должно/*/
+  color: #fff;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+.img-wrap i{
+   
+   -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s  ease;
+    -o-transition: all 0.9s  ease;
+    transition: all 0.9s  ease;
+ }
+.img-wrap:hover i{
+ transform: scale(1.5);
+  -webkit-transition: all 0.9s ease;
+    -moz-transition: all 0.9s  ease;
+    -o-transition: all 0.9s  ease;
+    transition: all 0.9s  ease;
+  border: 1px solid red;
+}
+
+
+}
+.gall a:hover:before{
+  background: rgba(139,139,140,.7);
+  opacity: 0.8;
+  transition: all .1s;
+  
+}
+
+/*---------togglle------------*/
+.toggle-mnu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin-top: 14px;
+}
+.toggle-mnu span:after, .toggle-mnu span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+}
+.toggle-mnu span:after {
+  top: 18px;
+}
+.toggle-mnu span {
+  position: relative;
+  display: block;
+}
+.toggle-mnu span, .toggle-mnu span:after, .toggle-mnu span:before {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+.toggle-mnu.on span {
+  background-color: transparent;
+}
+.toggle-mnu.on span:before {
+  transform: rotate(45deg) translate(-1px, 0px);
+}
+.toggle-mnu.on span:after {
+  transform: rotate(-45deg) translate(6px, -7px);
+}
+
+/* ---------------------------------------------- /*
+ * Mouse animate icon
+/* ---------------------------------------------- */
+.mouse-icon {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  border: 2px solid #000;
+  border-radius: 16px;
+  height: 40px;
+  width: 24px;
+  display: block;
+  z-index: 10;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.mouse-icon .wheel {
+  -webkit-animation-name: drop;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+  -webkit-animation-name: drop;
+          animation-name: drop;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.mouse-icon .wheel {
+  position: relative;
+  border-radius: 10px;
+  background: #000;
+  width: 2px;
+  height: 6px;
+  top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@-webkit-keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+@keyframes drop {
+  0% {
+    top: 5px;
+    opacity: 0;
+  }
+  30% {
+    top: 10px;
+    opacity: 1;
+  }
+  100% {
+    top: 25px;
+    opacity: 0;
+  }
+}
+.top{
+  background: url(27.jpg);
+}
